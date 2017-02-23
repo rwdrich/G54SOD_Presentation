@@ -46,54 +46,16 @@
     \graphicspath{ {images/} }
     \maketitle
 
-    \begin{frame}{Breakdown}
-        \begin{enumerate}
-            \item Initialisation
-            \item Heuristic application
-            \item Killing the weak
-        \end{enumerate}
-    \end{frame}
-
-
-    \begin{frame}{The Problem}
-        \begin{enumerate}
-            \item Waste management on campus is a complex process \pause
-            \item Sanitation workers need to tour the campus to empty bins \pause
-            \item Campus is so large that bins are not always full \pause
-            \item This wastes the time of sanitation workers \pause
-            \item By using sensors we can detect which bins need emptying \pause
-            \item Is this more efficient?
-        \end{enumerate}
-    \end{frame}
-
-    \begin{frame}{Different Methods of Simulation}
-        \begin{centering} 
-            \begin{tabular}{| c | c | c |}
-                \hline
-                Agent Based      & Discrete Event  & System Dynamic \\
-                \hline
-                \pause
-                Student Movement & Cafe Acoustics    & Online Car Pool \\ \pause
-                                 & Parking Fullness  & Pre-order Student Lunch \\ \pause
-                                 & Waste on Campus   & \\
-        
-                \hline
-
-            \end{tabular}
-        \end{centering}
-    \end{frame}
-
-
     \begin{frame}{Introduction}
         \begin{columns}
             \column{0.5\textwidth}
                 A smart campus is
                 \begin{itemize}
-                    \item Efficient
-                    \item Safe
-                    \item Sustainable
-                    \item Responsive
-                    \item Enjoyable Place to live and work
+                    \item Efficient \pause
+                    \item Safe \pause
+                    \item Sustainable \pause
+                    \item Responsive \pause
+                    \item Enjoyable Place to live and work \pause
                     \item Underpinned and enhanced by digital or internet based technologies
                 \end{itemize} \cite{Misc:uonsmartcampus}
             \column{0.5\textwidth}
@@ -102,6 +64,23 @@
                 \caption{Can we make Nottingham University smart?}
                 \end{figure}
         \end{columns}
+    \end{frame}
+
+    \begin{frame}{Different Methods of Simulation}
+        \begin{centering}
+            \begin{tabular}{| c | c | c |}
+                \hline
+                Agent Based      & Discrete Event  & System Dynamic \\
+                \hline
+                \pause
+                Student Movement & Cafe Acoustics    & Online Car Pool \\ \pause
+                                 & Parking Fullness  & Pre-order Student Lunch \\ \pause
+                                 & Waste on Campus   & \\
+
+                \hline
+
+            \end{tabular}
+        \end{centering}
     \end{frame}
 
     \begin{frame}{Feasibility Measures}
@@ -162,6 +141,24 @@
      \end{adjustbox}
     \end{frame}
 
+    \begin{centering}
+        \begin{frame}[c]{}
+            \frametitle{Our project}
+            Simulating a Waste Management System
+        \end{frame}
+    \end{centering}
+
+    \begin{frame}{The Problem}
+        \begin{enumerate}
+            \item Waste management on campus is a complex process \pause
+            \item Sanitation workers need to tour the campus to empty bins \pause
+            \item Campus is so large that bins are not always full \pause
+            \item This wastes the time of sanitation workers \pause
+            \item By using sensors we can detect which bins need emptying \pause
+            \item Is this more efficient?
+        \end{enumerate}
+    \end{frame}
+
     \begin{frame}{Stakeholder Views}
         \begin{center}
         \begin{tabular}{|p{0.3\textwidth} | p{0.3\textwidth} | p{0.3\textwidth}|}
@@ -178,14 +175,13 @@
         \end{center}
     \end{frame}
 
-
     \begin{frame}{Replacing or Relocating}
         \begin{columns}
             \column{0.5\textwidth}
             \begin{itemize}
-                \item The workload for the cleaning staff would be reduced, therefore fewer people would be required
-                \item This situation might be beneficial for the university due to all the money that would be saved
-                \item On the other hand, many families would stop receiving an income and relocating the cleaning staff might be a more ethical solution
+                \item The workload for the cleaning staff would be reduced, therefore fewer people would be required \pause
+                \item This situation might be beneficial for the university due to all the money that would be saved \pause
+                \item On the other hand, many families would stop receiving an income  and relocating the cleaning staff might be a more ethical solution
             \end{itemize}
             \column{0.5\textwidth}
             \includegraphics[width=0.99\columnwidth]{humanvsrobot}
@@ -196,9 +192,9 @@
         \begin{columns}
             \column{0.5\textwidth}
             \begin{itemize}
-                \item Less trash around the campus would improve its image
-                \item Removing geese faeces would reduce the risk of potential diseases
-                \item Students are less likely to litter on a cleaner campus
+                \item Less trash around the campus would improve its image \pause
+                \item Removing geese faeces would reduce the risk of potential diseases \pause
+                \item Students are less likely to litter on a cleaner campus \pause
                 \item A cleaner campus could lead to a better understanding of sustainability
             \end{itemize}
             \column{0.5\textwidth}
@@ -210,40 +206,29 @@
         \begin{columns}
             \column{0.5\textwidth}
             \begin{itemize}
-                \item The workload for the cleaning staff would be reduced, therefore fewer people would be required
-                \item This situation might be beneficial for the university due to all the money that would be saved
-                \item On the other hand, many families would stop receiving an income and relocating the cleaning staff might be a more ethical solution
+                \item It would be the first university with this kind of waste management system \pause
+                \item Money spent on wages would be saved \pause
+                \item It could be used as a marketing strategy to attract potential students or investors \pause
+                \item This might become a source of inspiration for other sustainable \pause ideas \pause
+                \item It would allow for a better distribution of the campus population
             \end{itemize}
             \column{0.5\textwidth}
             \includegraphics[width=0.99\columnwidth]{humanvsrobot}
         \end{columns}
     \end{frame}
 
-    \begin{frame}{Replacing or Relocating}
+    \begin{frame}{System Designers Opinions}
         \begin{columns}
             \column{0.5\textwidth}
             \begin{itemize}
-                \item The workload for the cleaning staff would be reduced, therefore fewer people would be required
-                \item This situation might be beneficial for the university due to all the money that would be saved
-                \item On the other hand, many families would stop receiving an income and relocating the cleaning staff might be a more ethical solution
+                \item Probably more than one prototype would be required \pause
+                \item Changes in the campus might be needed for the proper system performance \pause
+                \item May not perform as well as a human might
             \end{itemize}
             \column{0.5\textwidth}
             \includegraphics[width=0.99\columnwidth]{humanvsrobot}
         \end{columns}
     \end{frame}
-
-    \begin{frame}{Selection}
-        \begin{columns}
-            \column{0.5\textwidth}
-                \begin{figure}
-                \includegraphics[scale=0.25]{humanvsrobot}
-                \end{figure}
-            \column{0.5\textwidth}
-                Each chromosome gets a $ \frac{1}{n} $ chance\\
-                But better ones get a bigger probability
-        \end{columns}
-    \end{frame}
-
 
     \begin{frame}{Proposed Project}
         \begin{itemize}
@@ -254,11 +239,19 @@
                      \item Random bins full / Only one bin full / etc.\pause
                      \item Simulate over a week to see if not emptying bins leads to consequences the next day. \pause
                 \end{itemize}
-            \item Be ale to detect garbage on the floor and notify sanitation worker.
-        
+            \item Be able to detect garbage on the floor and notify sanitation worker.
         \end{itemize}
     \end{frame}
-    
+
+    \begin{frame}{Super Cool Sci-fi Project}
+        \begin{itemize}
+            \item Use CCTV footage and WIFI data to track student movement and prime locations \pause
+            \item Simulate student movement and try to optimise bin coverage across campus \pause
+            \item Focus cleaning operations on the busiest areas \pause
+            \item Minimise duration of cleaning process by optimising routes
+        \end{itemize}
+    \end{frame}
+
     \begin{frame}[allowframebreaks]
             \frametitle{References}
             \bibliographystyle{plain}
