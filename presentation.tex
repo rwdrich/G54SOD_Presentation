@@ -46,6 +46,44 @@
     \graphicspath{ {images/} }
     \maketitle
 
+    \begin{frame}{Breakdown}
+        \begin{enumerate}
+            \item Initialisation
+            \item Heuristic application
+            \item Killing the weak
+        \end{enumerate}
+    \end{frame}
+
+
+    \begin{frame}{The Problem}
+        \begin{enumerate}
+            \item Waste management on campus is a complex process \pause
+            \item Sanitation workers need to tour the campus to empty bins \pause
+            \item Campus is so large that bins are not always full \pause
+            \item This wastes the time of sanitation workers \pause
+            \item By using sensors we can detect which bins need emptying \pause
+            \item Is this more efficient?
+        \end{enumerate}
+    \end{frame}
+
+    \begin{frame}{Different Methods of Simulation}
+        \begin{centering} 
+            \begin{tabular}{| c | c | c |}
+                \hline
+                Agent Based      & Discrete Event  & System Dynamic \\
+                \hline
+                \pause
+                Student Movement & Cafe Acoustics    & Online Car Pool \\ \pause
+                                 & Parking Fullness  & Pre-order Student Lunch \\ \pause
+                                 & Waste on Campus   & \\
+        
+                \hline
+
+            \end{tabular}
+        \end{centering}
+    \end{frame}
+
+
     \begin{frame}{Introduction}
         \begin{columns}
             \column{0.5\textwidth}
@@ -206,54 +244,21 @@
         \end{columns}
     \end{frame}
 
-    \begin{frame}{Crossover}
-        \begin{columns}
-            \column{0.5\textwidth}
-                \begin{figure}
-                \includegraphics[scale=0.3]{family}
-                \end{figure}
-            \column{0.3\textwidth}
-                One point\\
-                Two point\\
-                K point\\
-                Uniform
-        \end{columns}
+
+    \begin{frame}{Proposed Project}
+        \begin{itemize}
+            \item Use sensors in the bins to detect when a bin is full \pause
+            \item At night calculate the shortest route on campus. \pause
+            \item Simulate different situations and compare with simply visiting each bin. \pause
+                \begin{itemize}
+                     \item Random bins full / Only one bin full / etc.\pause
+                     \item Simulate over a week to see if not emptying bins leads to consequences the next day. \pause
+                \end{itemize}
+            \item Be ale to detect garbage on the floor and notify sanitation worker.
+        
+        \end{itemize}
     \end{frame}
-
-    \begin{frame}{Culling}
-        \begin{columns}
-            \column{0.5\textwidth}
-                Keep the best
-            \column{0.5\textwidth}
-                \begin{figure}
-                \includegraphics[scale=1]{chicken}
-                \end{figure}
-        \end{columns}
-    \end{frame}
-
-
-    \begin{centering}
-        \begin{frame}[c]{}
-            \frametitle{Section 8}
-            Problems
-        \end{frame}
-    \end{centering}
-
-    \begin{frame}{Problems}
-        \begin{enumerate}
-            \item Chromosomal representation
-            \item Local Maxima
-            \item Heuristics are good
-        \end{enumerate}
-    \end{frame}
-
-    \begin{centering}
-        \begin{frame}[c]{}
-            \frametitle{Section 8}
-            But, why?
-        \end{frame}
-    \end{centering}
-
+    
     \begin{frame}[allowframebreaks]
             \frametitle{References}
             \bibliographystyle{plain}
